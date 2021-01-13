@@ -1,0 +1,259 @@
+    1  su
+    2  sudo su
+    3  ls
+    4  cd Documents
+    5  ls -l
+    6  mov pasta1 trash
+    7  cd
+    8  cd Documents
+    9  ls -l
+   10  cd trash
+   11  ls -l
+   12  su
+   13  clear
+   14  sudo userdel -r user1
+   15  sudo userdel -r user2
+   16  ls
+   17  cd var
+   18  ls
+   19  cd mail
+   20  ls
+   21  ls -la
+   22  cd ..
+   23  ls -la
+   24  cd ../..
+   25  ls -la
+   26  cd HOME
+   27  cd home
+   28  ls -la
+   29  clear
+   30  exit
+   31  touch arquivo1.txt
+   32  su
+   33  touch arquivo1.txt
+   34  touch arquivo2.txt
+   35  touch arquivo3.txt
+   36  vi arquivo1.txt
+   37  vi arquivo2.txt
+   38  nano arquivo.txt
+   39  nano arquivo1.txt
+   40  nano arquivo2.txt
+   41  vi arquivo3.txt
+   42  nano arquivo3.txt
+   43  nano arquivo.txt
+   44  nano arquivo1.txt
+   45  mv arquivo1.txt arquivo1.sh
+   46  mv arquivo2.txt arquivo2.sh
+   47  mv arquivo3.txt arquivo3.sh
+   48  sudo chmod ug+x /home
+   49  ./arquivo1.sh
+   50  ./arquivo1.sh
+   51  sudo chmod u+rwx /home
+   52  sudo chmod g+rwx /home
+   53  ./arquivo1.sh
+   54  chmod +x arquivo1.sh
+   55  sudo ./arquivo1.sh
+   56  ls
+   57  sudo ./arquivo2.sh
+   58  chmod +x arquivo2.sh
+   59  sudo ./arquivo2.sh
+   60  chmod +x arquivo3.sh
+   61  sudo ./arquivo2.sh
+   62  sudo ./arquivo3.sh
+   63  history
+   64  nano arquivo1.txt
+   65  ls
+   66  touch arquivo1.txt
+   67  su touch arquivo1.txt
+   68  sudo tauch arquivo1.txt
+   69  touch arquivo1.txt
+   70  sudo touch arquivo1.txt
+   71  sudo touch arquivo2.txt
+   72  sudo touch arquivo3.txt
+   73  ls
+   74  sudo chmod u+rwx /home
+   75  sudo chmod g+rwx /home
+   76  ls -l
+   77  sudo chmod u+rwx /home/arquivo1.txt
+   78  ls
+   79  ls -la
+   80  su
+   81  nano arquivo3.txt
+   82  nano arquivo2.txt
+   83  su
+   84  history
+   85  history > Lista.txt
+   86  vi Lista.txt
+   87  cp Lista.txt LISTA4.txt
+   88  ls
+   89  pwd
+   90  cp LISTA4.txt > /home
+   91  su
+   92  history > lista1
+   93  ls
+   94  history > lista4
+   95  history > lista4.txt
+   96  pwd
+   97  cp lista4.txt /home
+   98  sudo cp lista4.txt /home
+   99  cd /home
+  100  ls
+  101  clear
+  102  ssh root@10.5.4.69
+  103  clear
+  104  ssh
+  105  clear
+  106  su
+  107  dhclient -r eth0
+  108  ifconfig 
+  109  dhclient -r enps03
+  110  su
+  111  ls
+  112  mv LISTA4.txt > /Documents
+  113  su
+  114  cd Documents
+  115  ls
+  116  ls -la
+  117  su
+  118  ls -la
+  119  cd ..
+  120  ls -la
+  121  cd Documents
+  122  ls -la
+  123  cd ..
+  124  cd /home
+  125  ls -la
+  126  nano arquivo2.txt
+  127  nano lista4.txt
+  128  clear
+  129  ls -la
+  130  history
+  131  history > nota4.txt
+  132  sudo history > nota4.txt
+  133  su
+  134  history > nota4
+  135  su
+  136  history
+  137  su
+  138  Find / -user1
+  139  find / -user1
+  140  find / -user user1
+  141  clear
+  142  su
+  143  find /home/robertaabreu/*/*.txt
+  144  find /home/robertaabreu/*/*
+  145  find - type d
+  146  find -type d
+  147  clear
+  148  cd ..
+  149  find -type -perm 777
+  150  find -type f -perm 777
+  151  clear
+  152  sudo find -type f -perm 777
+  153  sudo find -type f -perm 645
+  154  sudo find -type f -perm 654
+  155  sudo find -type f -perm 555
+  156  clear
+  157  sudo find -type d -perm 777
+  158  sudo find -type d -perm 645
+  159  su
+  160  sudo find -type d -perm 645
+  161  sudo find -type d -perm 555
+  162  sudo find -type d -perm 777
+  163  sudo find -type d -perm 645
+  164  sudo find -type d -perm 654
+  165  find / -perm /a=x
+  166  find / -perm /a-x
+  167  history
+  168  history > lista6.txt
+  169  nano lista6.txt
+  170  su
+  171  >arquivo1.txt
+  172  >arquivo2.txt
+  173  >arquivo3.txt
+  174  ipconfig
+  175  ifconfig
+  176  nano arquivo1.txt
+  177  nano arquivo2.txt
+  178  nano arquivo3.txt
+  179  tar -czvf arquivo.1.tar.gz arquivo1.txt
+  180  tar -czvf arquivo.2.tar.gz arquivo2.txt
+  181  tar -czvf arquivo.3.tar.gz arquivo3.txt
+  182  /arquivos$ ls
+  183  ls
+  184  tar -cvif arquivo1.tar.bz2 arquivo1.txt
+  185  tar -cvif arquivo2.tar.bz2 arquivo2.txt
+  186  tar -cvif arquivo3.tar.bz2 arquivo3.txt
+  187  ls
+  188  scp -r arquivo.3.tar.gz robertaabreu@10.0.2.15:/home/robertaabreu
+  189  scp -r arquivo.1.tar.gz robertaabreu@10.0.2.15:/home/robertaabreu
+  190  scp -r arquivo.2.tar.gz robertaabreu@10.0.2.15:/home/robertaabreu
+  191  tar -xvjf arquivo1.tar.bz2
+  192  tar -xvjf arquivo2.tar.bz2
+  193  tar -xvjf arquivo3.tar.bz2
+  194  arquivo1.sh
+  195  su
+  196  ls
+  197  tar -xvf arquivo3.tar.bz2
+  198  tar -xvf arquivo2.tar.bz2
+  199  tar -xvf arquivo1.tar.bz2
+  200  ls
+  201  mkdir arquivos
+  202  ls
+  203  cp -p arquivo.1.tar.gz /arquivos
+  204  cd arquivos
+  205  ls
+  206  ls -la
+  207  cd ..
+  208  ls
+  209  cd /home/arquivo.1.tar.gz /home/arquivos/
+  210  cp /home/arquivo.1.tar.gz /home/arquivos/
+  211  ls
+  212  clear
+  213  ls
+  214  cd n
+  215  nano n
+  216  mdir n
+  217  rm n
+  218  ls
+  219  ifconfig
+  220  clear
+  221  cd arquivos
+  222  ls
+  223  sudo chmod ug+x
+  224  sudo chmod ug+x*
+  225  sudo chmod ug+x/home/arquivos
+  226  sudo chmod ug+x /home/arquivos
+  227  sudo chmod ug+x 
+  228  sudo chmod ug+x arquivos/
+  229  sudo chmod ug+x arquivos/ -R
+  230  Su
+  231  su
+  232  ls
+  233  mv arquivo1.txt arquivo1.sh
+  234  mv arquivo2.txt arquivo2.sh
+  235  mv arquivo3.txt arquivo3.sh
+  236  ls
+  237  ./ arquivo1.sh
+  238  ./arquivo1.sh
+  239  su
+  240  ./arquivo1.sh
+  241  sudo chmod ug+x /arquivos
+  242  ./arquivo1.sh
+  243  su
+  244  ./arquivo1.sh
+  245  ./arquivo2.sh
+  246  ./arquivo3.sh
+  247  nano arquivo3.sh
+  248  ./arquivo3.sh
+  249  mv arquivo4.txt arquivo4.sh
+  250  su
+  251  ./arquivo4.sh
+  252  nano arquivo4.sh
+  253  ls
+  254  nano arquivo4.sh
+  255  ./arquivo4.sh
+  256  nano arquivo4.sh
+  257  ./arquivo4.sh
+  258  ls -la
+  259  history > history4.txt

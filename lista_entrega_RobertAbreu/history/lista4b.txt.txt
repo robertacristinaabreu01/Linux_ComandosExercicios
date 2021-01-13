@@ -1,0 +1,95 @@
+    1  su
+    2  sudo su
+    3  ls
+    4  cd Documents
+    5  ls -l
+    6  mov pasta1 trash
+    7  cd
+    8  cd Documents
+    9  ls -l
+   10  cd trash
+   11  ls -l
+   12  su
+   13  clear
+   14  sudo userdel -r user1
+   15  sudo userdel -r user2
+   16  ls
+   17  cd var
+   18  ls
+   19  cd mail
+   20  ls
+   21  ls -la
+   22  cd ..
+   23  ls -la
+   24  cd ../..
+   25  ls -la
+   26  cd HOME
+   27  cd home
+   28  ls -la
+   29  clear
+   30  exit
+   31  touch arquivo1.txt
+   32  su
+   33  touch arquivo1.txt
+   34  touch arquivo2.txt
+   35  touch arquivo3.txt
+   36  vi arquivo1.txt
+   37  vi arquivo2.txt
+   38  nano arquivo.txt
+   39  nano arquivo1.txt
+   40  nano arquivo2.txt
+   41  vi arquivo3.txt
+   42  nano arquivo3.txt
+   43  nano arquivo.txt
+   44  nano arquivo1.txt
+   45  mv arquivo1.txt arquivo1.sh
+   46  mv arquivo2.txt arquivo2.sh
+   47  mv arquivo3.txt arquivo3.sh
+   48  sudo chmod ug+x /home
+   49  ./arquivo1.sh
+   50  ./arquivo1.sh
+   51  sudo chmod u+rwx /home
+   52  sudo chmod g+rwx /home
+   53  ./arquivo1.sh
+   54  chmod +x arquivo1.sh
+   55  sudo ./arquivo1.sh
+   56  ls
+   57  sudo ./arquivo2.sh
+   58  chmod +x arquivo2.sh
+   59  sudo ./arquivo2.sh
+   60  chmod +x arquivo3.sh
+   61  sudo ./arquivo2.sh
+   62  sudo ./arquivo3.sh
+   63  history
+   64  nano arquivo1.txt
+   65  ls
+   66  touch arquivo1.txt
+   67  su touch arquivo1.txt
+   68  sudo tauch arquivo1.txt
+   69  touch arquivo1.txt
+   70  sudo touch arquivo1.txt
+   71  sudo touch arquivo2.txt
+   72  sudo touch arquivo3.txt
+   73  ls
+   74  sudo chmod u+rwx /home
+   75  sudo chmod g+rwx /home
+   76  ls -l
+   77  sudo chmod u+rwx /home/arquivo1.txt
+   78  ls
+   79  ls -la
+   80  su
+   81  nano arquivo3.txt
+   82  nano arquivo2.txt
+   83  su
+   84  history
+   85  history > Lista.txt
+   86  vi Lista.txt
+   87  cp Lista.txt LISTA4.txt
+   88  ls
+   89  pwd
+   90  cp LISTA4.txt > /home
+   91  su
+   92  history > lista1
+   93  ls
+   94  history > lista4
+   95  history > lista4.txt

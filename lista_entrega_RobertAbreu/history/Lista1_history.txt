@@ -1,0 +1,177 @@
+    1  ls -la
+    2  cd /
+    3  ls -l
+    4  cd etc
+    5  ls -la
+    6  cd home
+    7  cd Home
+    8  cd ..
+    9  ls -la
+   10  cd home
+   11  ls -la
+   12  cd robertaabreu
+   13  ls -la
+   14  mkdir pasta1
+   15  ls
+   16  mkdir pasta2
+   17  mkdir pasta3
+   18  mkdir pasta4
+   19  mkdir pasta5
+   20  mkdir pasta6
+   21  ls
+   22  cd pasta1
+   23  touch arquivo1
+   24  touch arquivo2
+   25  touch arquivo3
+   26  ls
+   27  cp arquivo1 /home/robertaabreu/pasta2
+   28  cp arquivo2 /home/robertaabreu/pasta2
+   29  cp arquivo3 /home/robertaabreu/pasta3
+   30  ls -la
+   31  cd ..
+   32  cd pasta2
+   33  ls -l
+   34  cd ..
+   35  cd pasta1 
+   36  ls -l
+   37  cp arquivo3 /home/robertaabreu/pasta2
+   38  cd ..
+   39  cd pasta2
+   40  ls -l
+   41  cd ..
+   42  cd pasta3
+   43  ls -l
+   44  cp pasta1 /home/robertaabreu/pasta3
+   45  cd ..
+   46  cp pasta1 /home/robertaabreu/pasta3
+   47  cp -avr pasta1 pasta3
+   48  cd ls
+   49  ls -l
+   50  cd pasta3
+   51  ls -l
+   52  cd pasta1
+   53  ls -l
+   54  cd ..
+   55  rmdir pasta1
+   56  cd ..
+   57  cp -R pasta1 pasta4
+   58  cd pasta4
+   59  ls -la
+   60  cd pasta1
+   61  ls
+   62  clear
+   63  cd ..
+   64  cd pasta1
+   65  cp arquivo1 /home/robertaabreu/pasta3
+   66  cp arquivo2 /home/robertaabreu/pasta3
+   67  cp arquivo3 /home/robertaabreu/pasta3
+   68  cp arquivo1 /home/robertaabreu/pasta4
+   69  cp arquivo2 /home/robertaabreu/pasta4
+   70  cp arquivo3 /home/robertaabreu/pasta4
+   71  cp arquivo3 /home/robertaabreu/pasta5
+   72  cp arquivo2 /home/robertaabreu/pasta5
+   73  cp arquivo1 /home/robertaabreu/pasta5
+   74  cp arquivo1 /home/robertaabreu/pasta6
+   75  cp arquivo2 /home/robertaabreu/pasta6
+   76  cp arquivo3 /home/robertaabreu/pasta6
+   77  cd ..
+   78  cd pasta1
+   79  ls -la
+   80  cd ..
+   81  cd pasta2
+   82  ls -la
+   83  cd ..
+   84  cd pasta3
+   85  ls -la
+   86  rmdir pasta1
+   87  rm pasta1
+   88  rm -Rf pasta1
+   89  ls -la
+   90  cd ..
+   91  cd pasta4
+   92  ls -la
+   93  rm -Rf
+   94  ls -la
+   95  rm -Rf pasta1
+   96  ls -la
+   97  cd ..
+   98  cd pasta5
+   99  ls -la
+  100  cd ..
+  101  cd pasta6
+  102  ls -la
+  103  cd ..
+  104  cd pasta1
+  105  ls -la
+  106  mkdir -p pastaTeste/{subpasta1, Subpasta2,Subpasta3, Subpasta4, Subpasta5, Subpasta6}
+  107  ls -la
+  108  cd Subpasta 1
+  109  rm -Rf pastaTeste Subpasta2, Subpasta3, Subpasta4, Subpasta5, Subpasta6}
+  110  ls -la
+  111  rm -Rf pastaTeste Subpasta2,Subpasta3,
+  112  ls -la
+  113  mkdir -p Subpastas 1 2 3 4 5 6 
+  114  LS -LA
+  115  ls -la
+  116  cd Subpastas
+  117  ls -la
+  118  mkdir -p 1 2 3 4 5 6 
+  119  ls -la
+  120  cd 1
+  121  ls 
+  122  ls -la
+  123  cd ..
+  124  cd..
+  125  cd ..
+  126  ls -la
+  127  ls all
+  128  ls -all
+  129  ls -A
+  130  ls -c -lt
+  131  ls -l
+  132  ls -R
+  133  rm pasta6
+  134  rm - Rf pasta6
+  135  ls
+  136  rm -Rf pasta6
+  137  rm -Rf pasta5
+  138  rm -Rf pasta4
+  139  ls -la
+  140  mkdir -p lixo
+  141  ls -l
+  142  cp pasta1 /home/robertaabreu/lixo
+  143  cp pasta1 lixo
+  144  cp -r pasta1 lixo
+  145  cp -r pasta2 lixo
+  146  cp -r pasta3 lixo
+  147  cd lixo
+  148  ls -la
+  149  cd ..
+  150  sudo su
+  151  su
+  152  cd /home
+  153  ls -l
+  154  cd ..
+  155  ls -la
+  156  cd etc
+  157  ls -la
+  158  cd ..
+  159  cd home
+  160  ls -la
+  161  cd ..
+  162  cd /
+  163  ls -la
+  164  cd etc
+  165  ls -la
+  166  cd bash
+  167  cd profile
+  168  cd bash
+  169  locate history
+  170  history
+  171  cp history lista1.txt
+  172  ls -la
+  173  cp history >lista1.txt
+  174  su
+  175  history
+  176  pwd
+  177  history >>listaEx1.txt

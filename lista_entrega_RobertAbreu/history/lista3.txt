@@ -1,0 +1,207 @@
+    1  ls -l
+    2  cd Documents
+    3  mkdir pasta1
+    4  ls
+    5  mkdir pasta2
+    6  mkdir pasta3
+    7  mkdir pasta4
+    8  mkdir pasta5
+    9  mkdir pasta6
+   10  cd pasta1
+   11  touch < 1.txt
+   12  cat < 1.txt
+   13  cat 1.txt
+   14  cat > 1.txt
+   15  ls
+   16  cat 2.txt
+   17  cat 2.txt | more
+   18  cat > 2.txt
+   19  ls
+   20  cat > 3.txt
+   21  ls -l
+   22  cd ..
+   23  cd pasta1
+   24  cd ..
+   25  cd pasta2
+   26  cat > 1a.txt
+   27  cat > 2a.txt
+   28  cat > 3a.txt
+   29  ls -l
+   30  cd ..
+   31  cd pasta3
+   32  ls
+   33  ls -l
+   34  cat > 1b.txt
+   35  cat > 2b.txt
+   36  cat > 3b.txt
+   37  ls -l
+   38  cd ..
+   39  cd pasta4
+   40  cat > 1c.txt
+   41  cat > 2c.txt
+   42  cat > 3c.txt
+   43  ls -l
+   44  cd ..
+   45  cd pasta5
+   46  cat > 1d.txt
+   47  cat > 2d.txt
+   48  cat > 3d.txt
+   49  ls -l
+   50  cd ..
+   51  cd pasta6
+   52  cat > 1e.txt
+   53  cat >2e.txt
+   54  cat > 3e.txt
+   55  ls -l
+   56  cd ..
+   57  ls -la
+   58  cd pasta1
+   59  ls -l
+   60  ls -la
+   61  cd ..
+   62  mkdir trash
+   63  ls -l
+   64  pasta1 > trash
+   65  move pasta1 > trash
+   66  mov pasta1 > trash
+   67  mv pasta1 > trash
+   68  mov pasta1 trash
+   69  cd ..
+   70  apt-get update
+   71  apt-get install nano
+   72  apt-get install vi
+   73  apt-get install vim
+   74  apt-get install sudo
+   75  poweroff
+   76  su --help
+   77  exi
+   78  exit
+   79  adduser user1
+   80  adduser user2
+   81  adduser user3
+   82  adduser user4
+   83  adduser user5
+   84  su user1
+   85  su user2
+   86  su user3
+   87  su -rfm
+   88  su
+   89  su robertaabreu7
+   90  su robertaabreu
+   91  sudo chmod u+rwx,g-rwx,o-rwx* sudo chmod 700*
+   92  chmod --help
+   93  clear
+   94  ls
+   95  cd home
+   96  ls
+   97  sudo chmod u+rwx,g-rwx,o-rwx
+   98  chmod 700 /home
+   99  ls
+  100  ls -la
+  101  cd user3
+  102  mkdir p1 p2 p3 p4 p5
+  103  cd ..
+  104  cd user4
+  105  mkdir p1 p2 p3 p4 p5
+  106  cd ..
+  107  cd user5
+  108  mkdir p1 p2 p3 p4 p5
+  109  cd ..
+  110  sudo chmod g+rx, o+x, o+x user3
+  111  sudo chmod 765 user3
+  112  sudo chmod 765 user4
+  113  sudo chmod 765 user5
+  114  cd user3
+  115  sudo chmod ugo-rwx*
+  116  sudo chmod 000*
+  117  sudo chmod 000
+  118  sudo chmod 000 /home
+  119  ls -la
+  120  mv oi/home/user3/p1
+  121  ls
+  122  cd p1
+  123  >oi
+  124  ls
+  125  mv oi/home/user3/p1
+  126  cd ../..
+  127  su
+  128  cd home
+  129  cd user3
+  130  sudo chmod 750 /home
+  131  cd ..
+  132  cd user4
+  133  sudo chmod u+rwx /home
+  134  sudo chmod g+rx /home
+  135  sudo chmod 750 /home
+  136  cd..
+  137  cd ..
+  138  cd user5
+  139  sudo chmod u+rwx /home
+  140  sudo chmod g+rx /home
+  141  sudo chmod 750 /home
+  142  cd ..
+  143  ls -la
+  144  history >list2.txt
+  145  history
+  146  ls -la
+  147  ifconfig
+  148  cd ..
+  149  ifconfig
+  150  apt install net-tools
+  151  ifconfig
+  152  poweroff
+  153  exi
+  154  exit
+  155  sudo chmod rwx /var/srv
+  156  sudo chmod u+rwx,g+rwx /var/srv
+  157  sudo chmod u+rwx,g+rwx /var
+  158  exit
+  159  sudo chmod u+rwx,g+rwx /var
+  160  sudo chmod u+rwx,g+rwx /srv
+  161  exit
+  162  sudo chmod u+rwx,g+rwx /user1
+  163  ls
+  164  cd user1
+  165  ls
+  166  ls -la
+  167  sudo chmod u+rwx,g+rwx /srv/user1
+  168  exit
+  169  exit
+  170  cd user1
+  171  touch vazio.txt
+  172  ls
+  173  touch user1.txt
+  174  ls
+  175  cp user1.txt ../../srv/user1
+  176  cd ..
+  177  cd user2
+  178  cp user2.txt ../../srv/user2
+  179  touch user2.txt
+  180  cp user2.txt ../../srv/user2
+  181  cd ../..
+  182  cd srv
+  183  cd user1
+  184  touch vazio.txt
+  185* 
+  186  cp user1.txt ../../var/user2
+  187  cd ..
+  188  cd user2
+  189  cp user2.txt ../../var/user2
+  190  ls -l
+  191  cd ..
+  192  cd user1
+  193  ls
+  194  cd ..
+  195  cd user2
+  196  ls
+  197  touch vazio.txt
+  198  ls
+  199  cd ..
+  200  cd user03
+  201  touch user03.txt
+  202  touch vazio.txt
+  203  cp user3.txt ../../var/user3
+  204  ls
+  205  cp user03.txt ../../var/user3
+  206  ls
+  207  history > lista3.txt

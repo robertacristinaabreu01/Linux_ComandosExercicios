@@ -1,0 +1,95 @@
+    1  ls -l
+    2  cd Documents
+    3  mkdir pasta1
+    4  ls
+    5  mkdir pasta2
+    6  mkdir pasta3
+    7  mkdir pasta4
+    8  mkdir pasta5
+    9  mkdir pasta6
+   10  cd pasta1
+   11  touch < 1.txt
+   12  cat < 1.txt
+   13  cat 1.txt
+   14  cat > 1.txt
+   15  ls
+   16  cat 2.txt
+   17  cat 2.txt | more
+   18  cat > 2.txt
+   19  ls
+   20  cat > 3.txt
+   21  ls -l
+   22  cd ..
+   23  cd pasta1
+   24  cd ..
+   25  cd pasta2
+   26  cat > 1a.txt
+   27  cat > 2a.txt
+   28  cat > 3a.txt
+   29  ls -l
+   30  cd ..
+   31  cd pasta3
+   32  ls
+   33  ls -l
+   34  cat > 1b.txt
+   35  cat > 2b.txt
+   36  cat > 3b.txt
+   37  ls -l
+   38  cd ..
+   39  cd pasta4
+   40  cat > 1c.txt
+   41  cat > 2c.txt
+   42  cat > 3c.txt
+   43  ls -l
+   44  cd ..
+   45  cd pasta5
+   46  cat > 1d.txt
+   47  cat > 2d.txt
+   48  cat > 3d.txt
+   49  ls -l
+   50  cd ..
+   51  cd pasta6
+   52  cat > 1e.txt
+   53  cat >2e.txt
+   54  cat > 3e.txt
+   55  ls -l
+   56  cd ..
+   57  ls -la
+   58  cd pasta1
+   59  ls -l
+   60  ls -la
+   61  cd ..
+   62  mkdir trash
+   63  ls -l
+   64  pasta1 > trash
+   65  move pasta1 > trash
+   66  mov pasta1 > trash
+   67  mv pasta1 > trash
+   68  mov pasta1 trash
+   69  cd ..
+   70  apt-get update
+   71  apt-get install nano
+   72  apt-get install vi
+   73  apt-get install vim
+   74  apt-get install sudo
+   75  poweroff
+   76  su --help
+   77  exi
+   78  exit
+   79  cd home
+   80  cd user3
+   81  sudo chmod 750 /home
+   82  cd ..
+   83  cd user4
+   84  sudo chmod u+rwx /home
+   85  sudo chmod g+rx /home
+   86  sudo chmod 750 /home
+   87  cd..
+   88  cd ..
+   89  cd user5
+   90  sudo chmod u+rwx /home
+   91  sudo chmod g+rx /home
+   92  sudo chmod 750 /home
+   93  cd ..
+   94  ls -la
+   95  history >list2.txt

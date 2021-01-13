@@ -1,0 +1,50 @@
+    1  history
+    2  clear
+    3  cd home
+    4  cd /
+    5  cd home
+    6  touch arquivo.txt
+    7  sudo touch arquivo.txt
+    8  ls
+    9  sudo chmod 644 arquivo.txt
+   10  ls -la
+   11  scp arquivo.txt robertaabreu@10.0.2.15:/home/robertaabreu
+   12  scp robertaabreu@10.0.2.15:/home/robertaabreu/arquivo.txt destino.txt
+   13  sudo scp robertaabreu@10.0.2.15:/home/robertaabreu/arquivo.txt destino.txt
+   14  mkdir pasta
+   15  cd pasta
+   16  ls
+   17  sudo mkdir pasta
+   18  ls
+   19  cd pasta
+   20  >arq
+   21  sudo touch > arq
+   22  sudo > arq
+   23  touch
+   24  touch arq
+   25  sudo chmod 777 /home/pasta
+   26  touch arq
+   27  ls
+   28  scp -r pasta robertaabreu@10.0.2.15:/home/robertaabreu
+   29  cd ..
+   30  ls
+   31  cd pasta
+   32  cd ..
+   33  sudo chmod 777 /home/pasta
+   34  ls -la
+   35  scp -r pasta robertaabreu@10.0.2.15:/home/robertaabreu
+   36  scp robertaabreu@10.0.2.15:/home/robertaabreu/pasta recuperar pasta
+   37  scp pasta robertaabreu@10.0.2.15:/home/robertaabreu/pasta recuperar pasta
+   38  scp robertaabreu@10.0.2.15:/home/robertaabreu/pasta recuperar pasta
+   39  history > lista5.txt
+   40  sudo chmod 777 /
+   41  history > lista5.txt
+   42  history
+   43  history > lista
+   44  sudo chmod 777 /
+   45  history > lista5.txt
+   46  history
+   47  users
+   48  sudo history > lista5.txt
+   49  cd ..
+   50  history > lista5.txt
