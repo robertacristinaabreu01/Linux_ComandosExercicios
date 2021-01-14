@@ -15,6 +15,9 @@ Fontes de Aplicativos
 Repositórios Oficiais - Espelhos (1°Principal Federal do paraná e 2°base debian.debian.org)
 depois botão instalar atualizações
 
+Configuração GRUB- PC
+Selecionar o DEV/SDA (HD)
+
 ________________________________________
 configurações instalação Debian SEM INTERFACE
 1 °parte 
