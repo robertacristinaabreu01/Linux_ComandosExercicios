@@ -57,7 +57,9 @@ GIMP - similar ao PHOTOSHOP
 Inscape - Blender
 Steam - jogos 
 wine - emplementação de windows para linux
-
+synaptic -  gerenciador de pacotes
+alguns programas precisam instalar algumas bibliotecas
+como chrome:  chromium, chromium-l10n, widewine, chromium ublock-origin, libre2-3, liminzip1
 
 
 
