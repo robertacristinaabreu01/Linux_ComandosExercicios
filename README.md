@@ -52,5 +52,14 @@ Segue bem o video principalmente na parte do parcionamento. Deixa com EXt 3 pq a
 
 ____________________________________________________________
 
+***EXEMPLOS DE EDITORES DE VIDEO E IMAGENS***
+GIMP - similar ao PHOTOSHOP
+Inscape - Blender
+Steam - jogos 
+wine - emplementação de windows para linux
+
+
+
+
 
 
