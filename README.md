@@ -131,7 +131,7 @@ Lista as pastas recursivamente
 ls -R Cursos
 ls -R -l -a Cursos/
 
-!(https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
+![exemplo no terminal](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
 
 
 
