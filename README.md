@@ -135,10 +135,14 @@ ls -R -l -a Cursos/
 
 ![exemplo no terminal2](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
 
+arvores de diretórios --> ls -Rla <==> ls -R -l -a
+
 ![exemplo no Terminal3](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux3.PNG)
 
 
+criar a pasta sem precisar entrar na pasta , vc vai precisar do caminho até lá
 
+![exemplo de crar sem entrar](
 
 
 
