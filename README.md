@@ -6,7 +6,7 @@ Curso em video.
 https://www.linuxmint.com/download_lmde.php
 https://ubuntu.com/
 
-Mint PASSO A PASSO
+** Mint PASSO A PASSO **
 
 gerenciador de atualização/configurarSNAPSHOT do SISTEMA dar "ok" - mesma coisa que backup pelo Windows
 Assitente de configuração - >Selecionar Níveis de Backup / 2, 3, 3, 6, 3 ->cria o backup e depois atualiza (botão)
@@ -156,6 +156,25 @@ ou
 rm -rf Cursos/
 
 ![comandos de remover](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux5.PNG)
+
+________________________________________________________________________
+
+COMO LISTAR ARQUIVOS ESPECÍFICOS
+
+ls /etc/*.conf   --->lista todos os arquivos com final .conf
+
+ls /etc/*x*  ----> lista arquivos que no nome possuem a letra x
+
+ls /etc/f*  ---> começa com a letra f
+
+ls /etc/?as*  ---> não sabemos qual o primeiro caracter mas as
+ex: /etc/passwd
+
+ls /etc/???as*  ---> não sabemos a 1°, 2° e 3° e a 4° e 5° será "as"
+ex: /etc/default
+
+
+
 
 
 
