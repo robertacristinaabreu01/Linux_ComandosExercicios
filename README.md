@@ -54,36 +54,91 @@ ____________________________________________________________
 
 ***EXEMPLOS DE EDITORES DE VIDEO E IMAGENS***
 GIMP - similar ao PHOTOSHOP
+
 Inscape - Blender
+
 Steam - jogos 
+
 wine - emplementação de windows para linux
+
 synaptic -  gerenciador de pacotes
+
 alguns programas precisam instalar algumas bibliotecas
+
 como chrome:  chromium, chromium-l10n, widewine, chromium ublock-origin, libre2-3, liminzip1
 
 __________________________________________________________________
 
 APT --> TERMINAL
 
-apt moo --> mostra uma vaca no terminal ...kkk
+apt moo  --> mostra uma vaca no terminal ...kkk
+
 apt-get update
+
 apt install "pacote" (apt install chromium)[instala]
+
 apt remove chromium[desinstalar]
 apt-get autoremove (desinstala e remove as dependências)
+
 apt-get autoclean (limpando e removendo todos os arquivos .deb (pacotes) contidos nos diretórios)
+apt clean --> limpa os repositórios
+
 htop --> mostra qto esta usando de HD
+
 dpkg -->manipula os pacotes
 dpkg --remove pacote (precisa estar na pasta--> dpkg --remove code_amd64.deb)
-apt clean --> limpa os repositórios
 sudo apt autoremove --> deleta todos os pacotes que não estão sendo mais usados
+
 programa --version --> mostra a versão do programa
+
 ls --> listar pastas e arquivos
 ls -la --> lista pastas , arquivos e as demais informações e ls --all  ---> mostra os arquivos ocultos tb
 ls -l --> permissões e lista as pastas
+ls -l -h --> lista de forma mais simples para o usuário o tamanho do arquivo
+
 cd Documentos --> entra na pasta Documentos
 cd ..  --> sai da pasta
-ls -l -h --> lista de forma mais simples para o usuário o tamanho do arquivo
 cd ~  ---> entra no diretório do usuário
+
+ls /bin  ---> mostra a lista de comandos
+ls /dev  ---> aonde fica tudo da maquina, exemplo: usb, cpu
+ls /home --> minha área de usuário
+ls /proc --> informações sore o sistema
+
+lscpu --> dentro do proc formatando de uma forma diferente
+
+pwd -->  /home/roberta
+mkdir --> cria pasta (mkdir linux)
+touch oi.txt  --> cria um arquivo zerado
+editores de texto (vim, nano)
+nano oi,txt --> abrir o arquivo ( salvar usa-se ^o, e sair ^x)
+
+ls --help --> mostra todos os parâmetros
+man ls  --> mostra o manual
+
+history  --> mostra todos os comandos usados
+
+!92 ou ls -lh são o mesmo comando
+
+cd Documentos / ls pasta / ls -a ou ls --all  --> para ver tudo
+
+criar pasta dentro da pasta Linux (cria na sequencia)
+mkdir - p Cursos/Hardware/Módulos\ 1/
+ou
+mkdir -p "Cursos/Hardware/Módulo 2/"
+
+Lista as pastas recursivamente
+ls -R Cursos
+ls -R -l -a Cursos/
+
+!
+
+
+
+
+
+
+
 
 
 
