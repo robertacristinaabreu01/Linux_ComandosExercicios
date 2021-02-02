@@ -142,12 +142,20 @@ arvores de diretórios --> ls -Rla <==> ls -R -l -a
 
 criar a pasta sem precisar entrar na pasta , vc vai precisar do caminho até lá
 
-![exemplo de crar sem entrar](
+![exemplo de crar sem entrar](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux4.PNG)
 
 
+cat Linux.txt  --> só pra ver o que em dentro do arquivo
 
+como deletar a pasta mas que tem arquivo dentro
+rm Linux/oi.txt
+rmdir Linux
 
+ou
 
+rm -rf Cursos/
+
+![comandos de remover](
 
 
 
