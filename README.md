@@ -130,8 +130,8 @@ mkdir -p "Cursos/Hardware/Módulo 2/"
 Lista as pastas recursivamente
 ls -R Cursos
 ls -R -l -a Cursos/
-
-![exemplo no terminal](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
+![exemplo no terminal](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux2.PNG)
+![exemplo no terminal2](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
 
 
 
