@@ -155,7 +155,7 @@ ou
 
 rm -rf Cursos/
 
-![comandos de remover](
+![comandos de remover]()
 
 
 
