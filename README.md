@@ -61,6 +61,39 @@ synaptic -  gerenciador de pacotes
 alguns programas precisam instalar algumas bibliotecas
 como chrome:  chromium, chromium-l10n, widewine, chromium ublock-origin, libre2-3, liminzip1
 
+__________________________________________________________________
+
+APT --> TERMINAL
+
+apt moo --> mostra uma vaca no terminal ...kkk
+apt-get update
+apt install "pacote" (apt install chromium)[instala]
+apt remove chromium[desinstalar]
+apt-get autoremove (desinstala e remove as dependências)
+apt-get autoclean (limpando e removendo todos os arquivos .deb (pacotes) contidos nos diretórios)
+htop --> mostra qto esta usando de HD
+dpkg -->manipula os pacotes
+dpkg --remove pacote (precisa estar na pasta--> dpkg --remove code_amd64.deb)
+apt clean --> limpa os repositórios
+sudo apt autoremove --> deleta todos os pacotes que não estão sendo mais usados
+programa --version --> mostra a versão do programa
+ls --> listar pastas e arquivos
+ls -la --> lista pastas , arquivos e as demais informações e ls --all  ---> mostra os arquivos ocultos tb
+ls -l --> permissões e lista as pastas
+cd Documentos --> entra na pasta Documentos
+cd ..  --> sai da pasta
+ls -l -h --> lista de forma mais simples para o usuário o tamanho do arquivo
+cd ~  ---> entra no diretório do usuário
+
+
+
+
+
+
+
+
+
+
 
 
 
