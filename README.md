@@ -135,7 +135,7 @@ ls -R -l -a Cursos/
 
 ![exemplo no terminal2](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux.PNG)
 
-![exemplo no Terminal3] (https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux3.PNG)
+![exemplo no Terminal3](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux3.PNG)
 
 
 
