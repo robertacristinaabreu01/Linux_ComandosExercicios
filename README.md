@@ -155,7 +155,7 @@ ou
 
 rm -rf Cursos/
 
-![comandos de remover]()
+![comandos de remover](https://github.com/robertacristinaabreu01/Linux_ComandosExercicios/blob/main/exLinux5.PNG)
 
 
 
